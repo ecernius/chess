@@ -1,0 +1,33 @@
+* {margin: 0;
+padding: 0;}
+table{
+  width: 800px;
+  height: 800px;
+  border-spacing: 20px;
+}
+tr,td{
+    border: 5px solid red;
+    background-color: orange;
+
+}
+
+div{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    text-align: center;
+    margin: 25px;
+}
+td:nth-child(odd){
+    background-color: blue;
+    border:5px solid green;
+}
+td:nth-child(even)
+{background-color: purple;
+    border:5px solid orange;
+}
+div:nth-child(odd)
+{
+    background-color: greenyellow;
+}
